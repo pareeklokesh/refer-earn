@@ -244,3 +244,22 @@ background: linear-gradient(to bottom, #0066fa, #0456fa);
 .follow button.copylink {
 background: linear-gradient(to bottom, #ffd505, #fea000);
 }
+
+
+
+@media (max-width: 991px) {
+  .share li h3 ,.share button{font-size: 12px;}
+  .refertab .nav-item button {
+  font-size: 14px;
+}
+.share li i {
+  width: 35px;
+  height: 35px;
+}
+.share li i img {
+  width: 15px;
+}
+.share li h3 br {
+  display: none;
+}
+}

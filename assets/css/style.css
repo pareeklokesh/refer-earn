@@ -192,9 +192,11 @@ line-height: normal
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   display: inline-block;
-  position: relative;
-top: 7px;
 margin-left: 15px;
+}
+.share.invitebonus h3 {
+  display: flex !important;
+  align-items: center;
 }
 .share.invitebonus h3 {
   display: inline-block;width: auto;margin: 0;
@@ -206,7 +208,12 @@ margin-left: 15px;
   padding: 10px 60px;
 }
 .share.invitebonus li::before, .share.sharearrow li::before {
-  content: "";display: block;width: 1px;height: 20px;background: #8d0100;position: absolute;right: 0;top: 7px;
+  content: "";display: block;width: 1px;width: 1px;
+height: 15px;
+background: #8d0100;
+position: absolute;
+right: 0;
+top: 4px;
 }
 .share.sharearrow li {
   position: relative;/*width: 25%;*/
@@ -261,5 +268,48 @@ background: linear-gradient(to bottom, #ffd505, #fea000);
 }
 .share li h3 br {
   display: none;
+}
+.follow {
+  flex-wrap: wrap;
+}
+.follow {
+  justify-content: center;
+}
+.follow li {
+  margin-top: 10px;
+}
+.arrow {
+  width: 20%;
+}
+
+}
+
+@media (max-width: 875px) {
+.yourfriend button {
+  min-width: 130px;
+}
+.refertab .nav-item button img {
+  width: 30px;
+}
+.refertab .nav-item button {
+  padding-right: 0;
+  padding-left: 0;
+}
+}
+@media (max-width: 720px) {
+  .yourfriend button br {
+    display: none;
+  }
+  .share.invitebonus {
+  padding: 10px 0px;
+}
+.mycode .friendscode button {
+  padding: 6px 15px;
+}
+.yourfriend button {
+  min-width: auto;
+}
+.share.invitebonus i {
+  margin-left: 5px;
 }
 }

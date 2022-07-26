@@ -1,0 +1,246 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #252525;
+  font-size: 15px;
+  line-height: 28px;
+  transition: all .4s linear;
+}
+* {
+  transition: all .4s linear;
+}
+.referearn {
+  background: linear-gradient(to bottom, #c9265d, #be2d68);
+}
+.referearn .bgtext {
+  background: linear-gradient(to bottom, #fff 28%, #ffff09);
+    background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+.arrow {
+  display: flex;
+  position: relative;
+  width: 224px;
+height: 65px
+}
+.arrow svg {
+  width: 78px;
+position: absolute;
+left: 0;
+top: -6px;
+  transform: rotate(180deg);
+  fill: #cf4d0f;
+}
+.arrow svg.svg2 {
+  left: 23px;
+width: 55px;
+top: 6px;
+}
+.arrow::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ffcb80;
+  position: absolute;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+}
+.header-title {
+  display: flex;
+  position: relative;
+  left: -12px;
+  margin: 0;
+  align-items: center;
+}
+.refertab {
+  flex-wrap: wrap;
+  border: 0px !important;
+}
+.refertab .nav-item {
+  display: block;
+  width: 100%;
+}
+.refertab .nav-item button {
+  border: 0;
+  background: transparent !important;
+  text-align: center;
+  width: 100%;
+}
+.refertab .nav-item button img {
+  display: block;
+  margin: 0px auto;
+  width: 50px;
+margin-bottom: 10px;
+}
+.refertab .nav-item button {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 0px !important;
+}
+.refertab .nav-item button.active {
+  background: #ffcb80 !important;
+}
+.share li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.share li i {
+  background: #920800;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+}
+.share li h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.share li h3 span {
+  color: #f9f719;
+}
+.share {
+  gap: 2%;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+.share {
+  background: #c52a2e;
+  border-radius: 5px;
+  border: 1px solid #ec8596;
+  margin-bottom: 0;
+  padding: 15px;
+  margin: 15px 0;
+}
+.taborderbg {
+  background: #c52a2e;
+  border-radius: 5px;
+  border: 1px solid #ec8596;
+  padding: 15px;
+}
+.taborderbg .share {
+margin: 0;
+}
+.share button {
+  background: #c12d4f;
+  border: 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #c92645;
+  font-weight: 600;
+line-height: normal
+}
+.friendscode button {
+  width: auto;
+  color: #fff;
+  padding: 5px 16px;
+}
+.friendscode h3 {
+  display: inline-block !important;
+  width: auto !important;
+  margin-top: 0 !important;
+  margin-right: 15px !important;
+}
+.share button {
+  color: #fff;
+}
+.referearn {
+  border-bottom: 1px solid #d36588;
+}
+/*.referearnadd {
+  height: 100vh;
+}*/
+.mycode .friendscode button {
+  padding: 8px 35px;
+}
+.mycode .friendscode button.code {
+  background: #692e4c;
+  border: 1px solid #5e1331;
+  border-top-color: #c14675;
+}
+.mycode .friendscode button.bind {
+  background: linear-gradient(to bottom, #9abbee, #7082b0);
+  border: 1px solid #e2e6ff;
+}
+.share.invitebonus i {
+  width: auto;
+  height: auto;
+  padding: 0;
+  background: linear-gradient(to bottom, #fff 28%, #ffff09);
+    background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: inline-block;
+  position: relative;
+top: 7px;
+margin-left: 15px;
+}
+.share.invitebonus h3 {
+  display: inline-block;width: auto;margin: 0;
+}
+.share.invitebonus li {
+  align-items: center;width: 100%;position: relative;
+}
+.share.invitebonus {
+  padding: 10px 60px;
+}
+.share.invitebonus li::before, .share.sharearrow li::before {
+  content: "";display: block;width: 1px;height: 20px;background: #8d0100;position: absolute;right: 0;top: 7px;
+}
+.share.sharearrow li {
+  position: relative;/*width: 25%;*/
+}
+.share.sharearrow li::before {
+  background: url('../img/rightarrow.png')no-repeat;
+  width: 20px;
+top: 45%;
+right: -16px;
+}
+.share.invitebonus li:last-child::before, .share.sharearrow li:last-child::before {
+  display: none;
+}
+.yourfriend button {
+  min-width: 210px;
+  height: 100%;
+}
+.yourfriend button span{
+  color: #f9f719;
+}
+.follow button {
+  border: 1px solid #fff;  
+  padding: 5px 10px;
+}
+.follow button img {
+  width: 32px;
+  margin-right: 5px;
+}
+.follow button.whatsapp {
+  background: linear-gradient(to bottom, #51cf60, #24b73d);
+}
+.follow button.facebook {
+background: linear-gradient(to bottom, #0066fa, #0456fa);
+}
+.follow button.copylink {
+background: linear-gradient(to bottom, #ffd505, #fea000);
+}

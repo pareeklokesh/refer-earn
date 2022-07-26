@@ -254,7 +254,7 @@ background: linear-gradient(to bottom, #ffd505, #fea000);
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (orientation : landscape)  {
   .share li h3 ,.share button{font-size: 12px;}
   .refertab .nav-item button {
   font-size: 14px;
@@ -284,7 +284,7 @@ background: linear-gradient(to bottom, #ffd505, #fea000);
 
 }
 
-@media (max-width: 875px) {
+@media (max-width: 875px) and (orientation : landscape)  {
 .yourfriend button {
   min-width: 130px;
 }
@@ -296,7 +296,7 @@ background: linear-gradient(to bottom, #ffd505, #fea000);
   padding-left: 0;
 }
 }
-@media (max-width: 720px) {
+@media (max-width: 720px) and (orientation : landscape)  {
   .yourfriend button br {
     display: none;
   }

@@ -375,6 +375,17 @@ border: 1px solid #3c3c3e;
 .referearn .bgtext {
   font-size: 18px;
 }
+.infocontent {
+  font-size: 9px;
+}
+.table-data li strong {line-height: normal;}
+.table-data li span, .table-data li strong {
+  font-size: 10px;
+}
+.table-data li {
+  width: 25%;padding: 0 5px;
+}
+
 
 }
 

@@ -62,7 +62,7 @@ top: 6px;
 }
 .refertab .nav-item {
   display: block;
-  width: 100%;
+  width: 50%;
 }
 .refertab .nav-item button {
   border: 0;
@@ -84,6 +84,7 @@ margin-bottom: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 0px !important;
+  margin: 0px !important;
 }
 .refertab .nav-item button.active {
   background: #ffcb80 !important;
@@ -265,6 +266,22 @@ display: none;
 }
 .info {
   cursor: pointer;
+}
+.nav.nav-tabs.refertab {
+  background: #c52a2e;
+}
+
+@media (max-width: 767px) and (orientation:portrait) {
+  .share.sharearrow li {
+  width: 33%;margin-bottom: 15px;
+}
+.share.sharearrow {
+  flex-wrap: wrap;justify-content: inherit;
+}
+.yourfriend button {
+  min-width: inherit;
+}
+
 }
 
 

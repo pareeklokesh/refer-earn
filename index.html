@@ -49,36 +49,39 @@
     <div class="col-md-12">
       <ul class="d-flex share sharearrow">
         <li>
-          <i><img src="assets/img/group.png" /></i>
-          <h3><span>Share</span> Your link</h3>
+          <i><img src="assets/img/share.png" /></i>
+          <h3 style="white-space: nowrap;"><span>Share</span> Your link</h3>
         </li>
         <li>
-          <i><img src="assets/img/group.png" /></i>
-          <h3><span>Share</span> Your link</h3>
+          <i><img src="assets/img/bonus.png" /></i>
+          <h3 style="white-space: nowrap;"><span>Get</span> invite bonus</h3>
         </li>
         <li>
-          <i><img src="assets/img/group.png" /></i>
-          <h3><span>Share</span> Get bonus when your <br>friend deposit</h3>
+          <i><img src="assets/img/money.png" /></i>
+          <h3><span>Share</span> Get bonus when your friend deposit</h3>
         </li>
         <li>
-          <i><img src="assets/img/group.png" /></i>
-          <h3><span>Share</span> Your link</h3>
+          <i><img src="assets/img/exchange.png" /></i>
+          <h3>Get bonus when friends <span>play cash game</span></h3>
         </li>
         <li>
-          <i><img src="assets/img/group.png" /></i>
-          <h3><span>Share</span> Your link</h3>
+          <i><img src="assets/img/won.png" /></i>
+          <h3 style="white-space: nowrap;"><span>Earn</span> unlimited cash</h3>
         </li>
       </ul>
 <div class="w-100 taborderbg">
       <ul class="d-flex share invitebonus">
         <li>
-          <h3>invite Bonus <i class="material-icons">error_outline</i></h3>
+          <h3>invite Bonus <i class="material-icons info">error_outline</i></h3>
+          <p class="m-0 infocontent">Get bonus when your referral signup</p>
         </li>
         <li>
-          <h3>Deposite Bonus <i class="material-icons">error_outline</i></h3>
+          <h3>Deposit Bonus <i class="material-icons info">error_outline</i></h3>
+          <p class="m-0 infocontent">Get bonus when your referral deposit</p>
         </li>
         <li>
-          <h3>Game Bonus <i class="material-icons">error_outline</i></h3>
+          <h3>Game Bonus <i class="material-icons info">error_outline</i></h3>
+          <p class="m-0 infocontent">Get bonus when your referral play cash game</p>
         </li>
       </ul>
       <ul class="d-flex share yourfriend" style="margin-top: 10px;background: #e74264;">
@@ -89,12 +92,12 @@
           <button>Get <span>5%</span> of your friends <br>deposit</button>
         </li>
         <li>
-          <button>Get <span>1.5%</span> of your friends <br>win/lose</button>
+          <button>Get <span>1.5%</span> of your friends <br>game play</button>
         </li>
       </ul>
     </div>
 
-    <ul class="d-flex share mycode">
+    <!-- <ul class="d-flex share mycode">
         <li>
           <h3 class="m-0"><span>My Code:</span> 4318277</h3>
         </li>
@@ -103,18 +106,18 @@
           <button class="code" style="margin-right: 15px;">1786509</button>
           <button class="bind">Bind</button>
         </li>
-      </ul>
+      </ul> -->
 
       <ul class="d-flex share follow" style="background:transparent;border: 0;">
-        <li>
-          <h3 class="m-0">When you add a new referal or your friend <br>plays you get bonus everytime! </h3>
+        <li class="w-100">
+          <h3 class="m-0 w-100 text-center">When you add a new referral, and your referral deposit/play game you get bonus everytime </h3>
         </li>
-        <li class="d-flex friendscode">
+        <!-- <li class="d-flex friendscode">
           
           <button class="whatsapp" style="margin-right: 15px;"><img src="assets/img/whatsapp.png" />Whatsapp</button>
           <button class="facebook" style="margin-right: 15px;"><img src="assets/img/facebook.png" />Facebook</button>
           <button class="copylink"><img src="assets/img/link.png" />Copy Link</button>
-        </li>
+        </li> -->
       </ul>
 
 
@@ -128,5 +131,12 @@
    </div>
  </div> 
 </div>
+
+<script>
+  $(".info").click(function(){
+    $(this).parent().toggleClass("info-open");
+  });
+</script>
+
 </body>
 </html>

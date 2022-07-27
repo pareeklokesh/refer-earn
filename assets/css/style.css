@@ -330,6 +330,9 @@ border: 1px solid #3c3c3e;
 .yourfriend button {
   min-width: inherit;
 }
+.share li h3 {
+  white-space: normal !important;
+}
 
 }
 @media (max-width: 620px) and (orientation:portrait) {
@@ -347,10 +350,30 @@ border: 1px solid #3c3c3e;
   font-size: 10px;
 }
 .refertab .nav-item button {
-  font-size: 16px;
+  font-size: 14px;
 }
 .refertab .nav-item button img {
   width: 20px;
+}
+.nav.nav-tabs.refertab li.nav-item button {
+  padding-left: 0;
+  padding-right: 0;
+}
+.refertab .nav-item button img {
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.share.invitebonus {
+  padding: 10px 5px;
+}
+.share.invitebonus i {
+  font-size: 16px;
+}
+.arrow {
+  width: 160px;
+}
+.referearn .bgtext {
+  font-size: 18px;
 }
 
 }

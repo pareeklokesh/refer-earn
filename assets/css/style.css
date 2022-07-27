@@ -9,7 +9,7 @@ body {
   transition: all .4s linear;
 }
 .referearn {
-  background: linear-gradient(to bottom, #c9265d, #be2d68);
+  background: gray;
 }
 .referearn .bgtext {
   background: linear-gradient(to bottom, #fff 28%, #ffff09);
@@ -44,7 +44,7 @@ top: 6px;
   display: block;
   width: 100%;
   height: 100%;
-  background: #ffcb80;
+  background: #d3d3d3;
   position: absolute;
   left: 0;
   clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
@@ -71,10 +71,11 @@ top: 6px;
   width: 100%;
 }
 .refertab .nav-item button img {
-  display: block;
+  
   margin: 0px auto;
-  width: 50px;
+  width: 35px;
 margin-bottom: 10px;
+margin-right: 15px;
 }
 .refertab .nav-item button {
   text-transform: uppercase;
@@ -86,8 +87,8 @@ margin-bottom: 10px;
   border-radius: 0px !important;
   margin: 0px !important;
 }
-.refertab .nav-item button.active {
-  background: #ffcb80 !important;
+.nav.nav-tabs.refertab li.nav-item button.active {
+  background: #000 !important;
 }
 .share li {
   list-style: none;
@@ -97,7 +98,7 @@ margin-bottom: 10px;
   flex-wrap: wrap;
 }
 .share li i {
-  background: #920800;
+  background: #000;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -126,29 +127,29 @@ margin-bottom: 10px;
   padding: 0;
 }
 .share {
-  background: #c52a2e;
+  background: #808080;
   border-radius: 5px;
-  border: 1px solid #ec8596;
+  border: 1px solid #9f9f9f;
   margin-bottom: 0;
   padding: 15px;
   margin: 15px 0;
 }
 .taborderbg {
-  background: #c52a2e;
+  background: #808080;
   border-radius: 5px;
-  border: 1px solid #ec8596;
+  border: 1px solid #9f9f9f;
   padding: 15px;
 }
 .taborderbg .share {
 margin: 0;
 }
 .share button {
-  background: #c12d4f;
+  background: #808080;
   border: 0;
   width: 100%;
   padding: 20px;
   border-radius: 5px;
-  border: 1px solid #c92645;
+  border: 1px solid #808080;
   font-weight: 600;
 line-height: normal
 }
@@ -167,7 +168,7 @@ line-height: normal
   color: #fff;
 }
 .referearn {
-  border-bottom: 1px solid #d36588;
+  border-bottom: 1px solid #9f9f9f;
 }
 /*.referearnadd {
   height: 100vh;
@@ -211,7 +212,7 @@ margin-left: 15px;
 .share.invitebonus li::before, .share.sharearrow li::before {
   content: "";display: block;width: 1px;width: 1px;
 height: 100%;
-background: #8d0100;
+background: #9f9f9f;
 position: absolute;
 right: 0;
 top: 0;
@@ -268,8 +269,59 @@ display: none;
   cursor: pointer;
 }
 .nav.nav-tabs.refertab {
-  background: #c52a2e;
+  padding: 0 15px;
+  gap: 1%;
+flex-wrap: inherit;
 }
+.nav.nav-tabs.refertab li.nav-item button {
+  background: #d3d3d3 !important;
+  transition: all .4s linear;
+}
+.nav.nav-tabs.refertab li.nav-item button:hover {
+  background: #000 !important;
+}
+.nav.nav-tabs.refertab li.nav-item button {
+  border-radius: 100px !important;
+}
+.table-data {
+  padding: 15px 0;
+}
+.table-data li {
+  list-style: none;
+  width: 20%;
+  padding: 0 10px;
+  position: relative;
+}
+.table-data li::before {
+  content: "";
+display: block;
+width: 1px;
+width: 1px;
+height: 100%;
+background: #9f9f9f;
+position: absolute;
+right: 0;
+top: 0;
+transition: all .4s linear;
+}
+.table-data li:last-child {
+  border-right: 0;
+}
+.table-data li:last-child::before {
+  display: none;
+}
+.table-data ul {
+  padding: 10px 5px;justify-content: space-between;
+  background: #808080;
+border-radius: 5px;
+border: 1px solid #9f9f9f;
+}
+.table-data li span, .table-data li strong {
+  display: block;
+  color: #fff;
+}
+
+
 
 @media (max-width: 767px) and (orientation:portrait) {
   .share.sharearrow li {
